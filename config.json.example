@@ -1,0 +1,12 @@
+{
+  "serverBaseUrl": "http://192.168.7.186:3000",
+  "adminUsername": "admin",
+  "token": "",
+  "timeoutSeconds": 60,
+  "defaultBackupRoot": "D:\\system-backups",
+  "modules": {
+    "database": {
+      "dbName": "whereisit"
+    }
+  }
+}

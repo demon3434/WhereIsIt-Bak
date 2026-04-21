@@ -1,0 +1,26 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Root local config
+config.json
+config.server.*.json
+
+# Python backend
+backend-fastapi/.env
+backend-fastapi/.venv/
+backend-fastapi/venv/
+backend-fastapi/__pycache__/
+backend-fastapi/.pytest_cache/
+backend-fastapi/.mypy_cache/
+backend-fastapi/storage/
+backend-fastapi/**/*.pyc
+
+# Rust client build outputs
+client-win32-rust/target/
+client-win32-rust/target-*/
+client-win32-rust/*.exe
+
+# Temp folders
+codex-tmp-check/
+target-codex-check*/
